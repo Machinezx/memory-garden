@@ -1,0 +1,49 @@
+{
+  "name": "memory-garden",
+  "version": "0.1.1",
+  "description": "给 AI 机器人用的「会生长的记忆」：知识卡 + 临时/长期双区 + 用进废退的生命周期。A tiny usage-driven memory lifecycle for LLM chatbots — cards grow with use and fade with neglect.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "llm",
+    "agent",
+    "memory",
+    "chatbot",
+    "knowledge-base",
+    "spaced-repetition",
+    "forgetting-curve",
+    "prompt-injection",
+    "chinese"
+  ],
+  "author": "Machinezx",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Machinezx/memory-garden.git"
+  },
+  "homepage": "https://github.com/Machinezx/memory-garden#readme",
+  "bugs": {
+    "url": "https://github.com/Machinezx/memory-garden/issues"
+  }
+}
